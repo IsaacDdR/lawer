@@ -1,0 +1,33 @@
+Gestor de archivos de texto y multimedia
+
+REQUERIMIENTOS
+
+    1.-Almacenamiento local
+    2.-Guardar imagenes, texto, audio, videos, multimedia, etc.
+
+INTERFAZ
+
+    OPT 1.- EXPLORAR CARPETAS
+        1.1.- BUSCAR POR:
+            1.1.2.- FECHA
+            1.1.3.- NOMBRE DEL IMPUTADO
+            1.1.4.- VICTIMA U OFENDIDO
+            1.1.4.- LUGAR DEL HECHO
+            1.1.5.- DELITO
+            1.1.6.- CIUDAD
+    OPT 2.- CREAR CARPETA
+        2.1.- INGRESA LOS DATOS
+            2.1.1.- NOMBRE
+            2.1.2.- FECHA DE LA DENUNCIA O QUERELLA
+            2.1.3.- IMPUTADO
+            2.1.4.- VICTIMA U OFENDIDO
+            2.1.6.- DELITO
+            2.1.7.- JUZGADO
+            2.1.7.- CIUDAD
+            2.1.8.- JUEZ
+            2.1.9.- CARPETA
+        2.2.- AGREGA MULTIMEDIA
+            2.2.1.- AUDIO
+            2.2.2.- VIDEO
+            2.2.3.- IMAGEN
+        2.3.- CREAR
