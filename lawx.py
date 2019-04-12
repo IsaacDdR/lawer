@@ -37,17 +37,18 @@ class OOP():
         tab1 = ttk.Frame(tabControl)            
         tab2 = ttk.Frame(tabControl)
 
+        e1 = ttk.Entry(tabControl)
+
         tabControl.add(tab1, text='Crear')    
         tabControl.pack(expand=1, fill="both")  
 
         tabControl.add(tab2, text='Buscar')    
         tabControl.pack(expand=1, fill="both")  
 
-        self.monty = ttk.LabelFrame(tab1, text=' Crear')
+        self.monty = ttk.LabelFrame(tab1, text='Crear')
         self.monty.grid(column=0, row=0, padx=8, pady=4)        
 
-        scr = scrolledtext.ScrolledText(self.monty, width=30, height=3, wrap=tk.WORD)
-        scr.grid(column=0, row=3, sticky='WE', columnspan=3)
+        tabControl.add(e1)
 
         self.monty = ttk.LabelFrame(tab2, text= 'Buscar')
         self.monty.grid(column=0, row=0, padx=8, pady=4)        
